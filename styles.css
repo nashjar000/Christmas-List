@@ -1,0 +1,25 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+li {
+    list-style: none;
+    padding: 1em;
+    border-bottom: 1px solid black;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    margin: 2em;
+}
